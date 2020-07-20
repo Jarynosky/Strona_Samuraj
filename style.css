@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+header{
+    height: 100vh;
+    background-color: #88F2FF;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    height: 100vh;
+    background-color: darkgrey;
+}
+header img{
+    position: absolute;
+    bottom: -20%;
+    height: 70%;
+    right: -70%;
+}
+header nav {
+    position: absolute;
+    right: 7%;
+    top: 4%;
+    font-size: 40px;
+}
+header hgroup{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    text-transform: uppercase;
+}
+header h1 {
+    font-size: 40px;
+}
+header h3 {
+    font-size: 30px;
+    font-weight:  400;
+}
+#arrow{
+    width: 96px;
+    height: 96px;
+    border: 5px solid black;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
